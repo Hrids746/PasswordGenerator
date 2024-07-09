@@ -1,0 +1,6 @@
+import random
+
+pwd="ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz~!@#$%^&*()_+"
+length=int(input("Enter the length of the passsword"))
+a="".join(random.sample(pwd, length))
+print(f"Your password is {a}")
